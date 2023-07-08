@@ -2,8 +2,10 @@ package application;
 
 public class Program {
 	public static void main(String[] args) {
+		/* verifique se a string é anagrama de um palindromo:
+		 	a) innput "racecar"
+		 	b) output: true */
 		String str = "recacer";
-
 		System.out.println(Palindrome(str));
 	}
 
