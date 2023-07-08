@@ -3,12 +3,9 @@ package application;
 public class Program {
 
 	public static void main(String[] args) {
-		/*
-		 * coloque em maiúscula a primeira letra de cada frase da string a) input:
-		 * "hello, how are you? i'm fine, thank you." b) output:
-		 * "Hello, how are you? I'm fine, thank you."
-		 */
-
+		/* coloque em maiúscula a primeira letra de cada frase da string 
+		 a) input: "hello, how are you? i'm fine, thank you." 
+		 b) output: "Hello, how are you? I'm fine, thank you." */
 		String phrase = "hello, how are you? i'm fine, thank you.";
 		System.out.println(capitalize(phrase));
 	}
